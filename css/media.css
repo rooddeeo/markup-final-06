@@ -4,20 +4,20 @@
 	/* mobile menu */
 	.header-mob-menu-link,
 	.header-mob-menu-contacts-link {
-	font-size: 36px;
-}
+		font-size: 36px;
+	}
 
-.header-mob-menu-social-list {
-	gap: 56px;
-}
+	.header-mob-menu-social-list {
+		gap: 56px;
+	}
 
 	/* -- SECTION HERO`S -- */
 	.container {
 		max-width: 426px;
 	}
-/* -- BACKDROP -- */
+	/* -- BACKDROP -- */
 	.backdrop-modal {
-width: 408px;
+		width: 408px;
 	}
 }
 
@@ -96,6 +96,9 @@ width: 408px;
 	}
 
 	.header-contacts-link {
+		font-size: 12px;
+		line-height: 1.16;
+		letter-spacing: 0.48px;
 		padding: 24px 0;
 		color: var(--text);
 		transition-property: color;
@@ -154,18 +157,22 @@ width: 408px;
 
 	.team-list {
 		display: flex;
-		gap: 24px;
+		gap: 64px 24px;
 	}
 
-	.team-list-item {
+	/* .team-list-item {
 		width: calc((100% - 24px) / 2);
-	}
+	} */
 
 	/* -- SECTION CUSTOMERS -- */
 	.customers {
 		padding-top: 96px;
 		padding-bottom: 96px;
 	}
+
+	.customers-container {
+	width: 552px;
+}
 
 	.customers-list {
 		display: flex;
@@ -182,6 +189,7 @@ width: 408px;
 	/* -- FOOTER -- */
 	.footer-container {
 		display: flex;
+		width: 552px;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: left;
@@ -229,6 +237,11 @@ width: 408px;
 		margin-bottom: 0;
 	}
 
+	/* -- BACKDROP -- */
+	.backdrop-modal {
+		padding: 72px 24px 24px 24px;
+	}
+
 	/* -- PORTFOLIO STYLE PAGE -- */
 	/* -- SECTION FILTER&RESULT -- */
 	.filter-and-result {
@@ -256,7 +269,7 @@ width: 408px;
 	/* -- INDEX STYLE PAGE -- */
 
 	.container {
-		max-width: 1440px;
+		max-width: 1158px;
 	}
 
 	/* -- HEADER -- */
@@ -264,9 +277,17 @@ width: 408px;
 		display: flex;
 	}
 
+	.header-contacts-link {
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.32px;
+	}
+
 	/* -- SECTION HERO`S -- */
 
 	.heros {
+				padding-top: 188px;
+		padding-bottom: 188px;
 		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-hero.jpg);
 	}
 
@@ -274,11 +295,6 @@ width: 408px;
 		.heros {
 			background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-hero-2x.jpg);
 		}
-	}
-
-	.heros-container {
-		padding-top: 188px;
-		padding-bottom: 188px;
 	}
 
 	.heros-title {
@@ -366,7 +382,6 @@ width: 408px;
 	}
 
 	.team-list {
-		display: flex;
 		gap: 24px;
 	}
 
@@ -378,6 +393,10 @@ width: 408px;
 	.customers {
 		padding-top: 120px;
 		padding-bottom: 120px;
+	}
+
+	.customers-container {
+		width: 1158px;
 	}
 
 	.customers-title {
@@ -401,7 +420,7 @@ width: 408px;
 	}
 
 	.footer-container {
-		display: flex;
+		width: 1158px;
 		flex-direction: row;
 		align-items: baseline;
 	}
